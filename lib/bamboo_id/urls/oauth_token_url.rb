@@ -30,7 +30,7 @@ module BambooId
       end
 
       def scope
-        'openid email'
+        'openid email legacy.login'
       end
     end
   end

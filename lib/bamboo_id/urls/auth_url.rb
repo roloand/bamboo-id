@@ -36,7 +36,7 @@ module BambooId
       end
 
       def scope
-        'openid email'
+        'openid email legacy.login'
       end
 
       def redirect_uri
